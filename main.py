@@ -1,7 +1,4 @@
-width = int(input())
-height = int(input())
+num_one = int(input())
+num_two = int(input())
 
-area  = width * height
-perimeter = 2 * (width + height)
-print(area)
-print(perimeter)
+print(num_one + num_two)
