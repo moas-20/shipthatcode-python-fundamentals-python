@@ -1,5 +1,7 @@
-# Print the greeting below
-name = input()
-age = input()
+width = int(input())
+height = int(input())
 
-print(f"Hi, {name}! You are {age} years old.")
+area  = width * height
+perimeter = 2 * (width + height)
+print(area)
+print(perimeter)
