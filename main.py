@@ -1,4 +1,9 @@
-num_one = int(input())
-num_two = int(input())
+num = int(input())
 
-print(num_one + num_two)
+if num > 0 :
+    print("positive")
+if num < 0 :
+    print("negative")
+
+if num == 0 :
+    print("zero")
