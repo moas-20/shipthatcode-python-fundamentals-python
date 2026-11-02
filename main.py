@@ -1,4 +1,10 @@
-myNumber = int(input())
 
-for value in range(1 , 11):
-    print(myNumber , 'x' , value , '=' , myNumber * value)
+total = 0
+
+while True:
+    myNum = int(input())
+    if myNum == 0:
+        break
+    total = total + myNum
+
+print(total)
