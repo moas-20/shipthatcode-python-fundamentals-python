@@ -1,8 +1,4 @@
-year = int(input())
+myNumber = int(input())
 
-
-
-if((year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)):
-    print('leap')
-else:
-    print('not leap')
+for value in range(1 , 11):
+    print(myNumber , 'x' , value , '=' , myNumber * value)
